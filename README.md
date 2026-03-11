@@ -1,16 +1,41 @@
-# React + Vite
+# University Portal Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Aim
 
-Currently, two official plugins are available:
+To create a simple **University Portal Web Application** using **React.js** that demonstrates client-side routing and displays course information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## React Compiler
+This project is a basic React application developed using **Vite**.
+The portal contains multiple pages where users can navigate through different sections of the university website.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application includes:
 
-## Expanding the ESLint configuration
+* **Home Page** – Displays the title of the portal.
+* **Courses Page** – Shows a list of at least five courses.
+* **Course Details Page** – Displays details of a selected course when a user clicks on a course.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router is used to implement navigation between different pages without reloading the page.
+
+## Technologies Used
+
+* React.js
+* Vite
+* React Router DOM
+
+
+## Features
+
+* Simple university portal interface
+* Client-side routing using React Router
+* List of 5 courses displayed
+* Dynamic course details page
+* Navigation without page reload
+
+## Pages
+
+1. Home
+2. Courses
+3. Course Details
+
+
